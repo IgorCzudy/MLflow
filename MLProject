@@ -1,0 +1,7 @@
+name: word_happiness_random_forest
+
+conda_env: conda.yaml
+
+entry_points:
+    main:
+        command: "python train.py"

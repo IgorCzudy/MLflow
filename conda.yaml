@@ -1,0 +1,11 @@
+name: random-forest-example
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.7
+  - scikit-learn
+  - pip
+  - pip:
+    - mlflow>=1.2333
