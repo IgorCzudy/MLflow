@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/525cec48df8d4d7caf5d0692bbed8b8c/artifacts
+end_time: 1701790849242
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 525cec48df8d4d7caf5d0692bbed8b8c
+run_name: loud-shoat-411
+run_uuid: 525cec48df8d4d7caf5d0692bbed8b8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701790846204
+status: 3
+tags: []
+user_id: igor

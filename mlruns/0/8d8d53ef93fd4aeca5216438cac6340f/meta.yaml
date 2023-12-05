@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/8d8d53ef93fd4aeca5216438cac6340f/artifacts
+end_time: 1701790748864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d8d53ef93fd4aeca5216438cac6340f
+run_name: debonair-bass-510
+run_uuid: 8d8d53ef93fd4aeca5216438cac6340f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701790745605
+status: 3
+tags: []
+user_id: igor

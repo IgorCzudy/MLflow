@@ -1,31 +1,99 @@
-import numpy as np
+import plac
+
 import pandas as pd
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.model_selection import train_test_split
+import numpy as np
+
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import ElasticNet
+
+from pathlib import Path
+
 import mlflow
 import mlflow.sklearn
 
-if __name__ == '__main__':
-    df = pd.read_csv('word-happiness-raport-2021.csv')
-    X_train, X_test, y_train, y_test = train_test_split(df.drop(['Ladder score'], axis=1), df['Ladder score'], test_size=0.2, random_state=42)
+from mlflow.tracking import MlflowClient
 
-    dt = DecisionTreeRegressor()
-    dt.fit(X_train, y_train)
-    score = dt.score(X_train, y_train)
-    print(f"Score: {score}")
 
-    y_pred = dt.predict(X_test)
+def autolog(run):
 
-    mse = mean_squared_error(y_test, y_pred)
-    mae = mean_absolute_error(y_test, y_pred)
-    r2 = r2_score(y_test, y_pred)
+    tags = {
+        k: v 
+        for k, v in run.data.tags.items() 
+        if not k.startswith("mlflow.")
+    }
 
-    mlflow.log_metric("score", score)
-    mlflow.log_metric("mse", mse)
-    mlflow.log_metric("mae", mae)
-    mlflow.log_metric("r2", r2)
+    artifacts = [
+        f.path 
+        for f 
+        in MlflowClient().list_artifacts(run.info.run_id, "model")
+    ]
 
-    mlflow.sklearn.log_model(dt, "model")
+    print(f"run_id: {run.info.run_id}")
+    print(f"artifacts: {artifacts}")
+    print(f"params: {run.data.params}")
+    print(f"metrics: {run.data.metrics}")
+    print(f"tags: {tags}")
 
-    print(f"Model saved in run {mlflow.active_run().info.run_uuid}")
+
+@plac.opt('input_file', 'Input file with training data', Path, 'i')
+@plac.opt('alpha', 'Alpha parameter for ElasticNet', float, 'a')
+@plac.opt('l1_ratio', 'L1 ratio parameter for ElasticNet', float, 'l')
+def main(input_file: Path, alpha: float=0.5, l1_ratio: float=0.5):
+
+    assert input_file, "Please provide a file with the training data"
+
+    df = pd.read_csv(input_file, sep=';')
+
+    df_train, df_test = train_test_split(df, train_size=0.8)
+
+    X_train = df_train.drop(['quality'], axis=1)
+    X_test = df_test.drop(['quality'], axis=1)
+    y_train = df_train['quality']
+    y_test = df_test['quality']
+
+    mlflow.sklearn.autolog()
+    lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
+
+    with mlflow.start_run() as run:
+        lr.fit(X_train, y_train)
+
+    autolog(mlflow.get_run(run_id=run.info.run_id))
+
+
+
+
+
+        # lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
+        # lr.fit(X_train, y_train)
+
+        # y_pred = lr.predict(X_test)
+
+        # rmse = mean_squared_error(y_test, y_pred)
+        # mae = mean_absolute_error(y_test, y_pred)
+        # r2score = r2_score(y_test, y_pred)
+
+        # print(f"ElasticNet(alpha={alpha},l1_ratio={l1_ratio}): RMSE={rmse}, MAE={mae}, R2={r2score}")
+
+        # mlflow.log_param('alpha', alpha)
+        # mlflow.log_param('l1_ratio', l1_ratio)
+        # mlflow.log_metric('rmse', rmse)
+        # mlflow.log_metric('mae', mae)
+        # mlflow.log_metric('r2score', r2score)
+
+
+        # # mlflow.log_metric(lr, 'model')
+        # # set a single tag
+        # mlflow.set_tag('version','0.9')
+
+        # # set a list of tags
+        # mlflow.set_tags({
+        #     'author': 'Mikolaj Morzy',
+        #     'date': '01.01.2021',
+        #     'release': 'candidate'
+        # })
+
+
+
+if __name__ == "__main__":
+    plac.call(main)

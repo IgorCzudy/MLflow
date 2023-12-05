@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/56db341256204824a498302d0d55b1f3/artifacts
+end_time: 1701791324903
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56db341256204824a498302d0d55b1f3
+run_name: unequaled-skunk-394
+run_uuid: 56db341256204824a498302d0d55b1f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791324876
+status: 3
+tags: []
+user_id: igor

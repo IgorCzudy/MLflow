@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/487275501147469834/32ceff3a76ff495c99666c4c36685ef7/artifacts
+end_time: 1701791927323
+entry_point_name: ''
+experiment_id: '487275501147469834'
+lifecycle_stage: active
+run_id: 32ceff3a76ff495c99666c4c36685ef7
+run_name: big-gnat-833
+run_uuid: 32ceff3a76ff495c99666c4c36685ef7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791924244
+status: 3
+tags: []
+user_id: igor

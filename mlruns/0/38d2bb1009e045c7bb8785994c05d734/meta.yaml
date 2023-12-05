@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/38d2bb1009e045c7bb8785994c05d734/artifacts
+end_time: 1701791616391
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38d2bb1009e045c7bb8785994c05d734
+run_name: gaudy-frog-35
+run_uuid: 38d2bb1009e045c7bb8785994c05d734
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791613300
+status: 3
+tags: []
+user_id: igor

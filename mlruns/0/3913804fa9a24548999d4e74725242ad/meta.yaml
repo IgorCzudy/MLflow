@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/3913804fa9a24548999d4e74725242ad/artifacts
+end_time: 1701791072395
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3913804fa9a24548999d4e74725242ad
+run_name: ambitious-mole-400
+run_uuid: 3913804fa9a24548999d4e74725242ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791068184
+status: 3
+tags: []
+user_id: igor

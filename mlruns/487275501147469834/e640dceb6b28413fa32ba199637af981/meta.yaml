@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/487275501147469834/e640dceb6b28413fa32ba199637af981/artifacts
+end_time: 1701791905031
+entry_point_name: ''
+experiment_id: '487275501147469834'
+lifecycle_stage: active
+run_id: e640dceb6b28413fa32ba199637af981
+run_name: treasured-squid-273
+run_uuid: e640dceb6b28413fa32ba199637af981
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791901668
+status: 3
+tags: []
+user_id: igor

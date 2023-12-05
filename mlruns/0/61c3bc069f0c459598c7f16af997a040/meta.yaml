@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/61c3bc069f0c459598c7f16af997a040/artifacts
+end_time: 1701791383632
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61c3bc069f0c459598c7f16af997a040
+run_name: worried-shark-915
+run_uuid: 61c3bc069f0c459598c7f16af997a040
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791383623
+status: 4
+tags: []
+user_id: igor

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/069e0ee364bc49ae89bbd1a84fbee750/artifacts
+end_time: 1701791089176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 069e0ee364bc49ae89bbd1a84fbee750
+run_name: rumbling-seal-631
+run_uuid: 069e0ee364bc49ae89bbd1a84fbee750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791089154
+status: 4
+tags: []
+user_id: igor

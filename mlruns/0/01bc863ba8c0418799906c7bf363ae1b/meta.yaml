@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/01bc863ba8c0418799906c7bf363ae1b/artifacts
+end_time: 1701791042922
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 01bc863ba8c0418799906c7bf363ae1b
+run_name: intelligent-kite-374
+run_uuid: 01bc863ba8c0418799906c7bf363ae1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791039733
+status: 3
+tags: []
+user_id: igor

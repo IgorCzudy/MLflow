@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/361139200105804938/91a1fb2c2e0b47789c39705efd46ecd8/artifacts
+end_time: 1701514988184
+entry_point_name: ''
+experiment_id: '361139200105804938'
+lifecycle_stage: active
+run_id: 91a1fb2c2e0b47789c39705efd46ecd8
+run_name: brawny-zebra-16
+run_uuid: 91a1fb2c2e0b47789c39705efd46ecd8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701514983497
+status: 3
+tags: []
+user_id: igor

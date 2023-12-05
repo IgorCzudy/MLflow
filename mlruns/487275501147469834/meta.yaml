@@ -1,0 +1,6 @@
+artifact_location: file:///home/igor/code/MLflow/mlruns/487275501147469834
+creation_time: 1701791884138
+experiment_id: '487275501147469834'
+last_update_time: 1701791884138
+lifecycle_stage: active
+name: simple-regression

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/e75f1c6bc3e148aaa45440db66922580/artifacts
+end_time: 1701791084599
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e75f1c6bc3e148aaa45440db66922580
+run_name: orderly-lamb-371
+run_uuid: e75f1c6bc3e148aaa45440db66922580
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791084576
+status: 4
+tags: []
+user_id: igor

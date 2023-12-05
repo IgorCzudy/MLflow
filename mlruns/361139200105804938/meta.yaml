@@ -1,0 +1,6 @@
+artifact_location: file:///home/igor/code/MLflow/mlruns/361139200105804938
+creation_time: 1701514773746
+experiment_id: '361139200105804938'
+last_update_time: 1701514773746
+lifecycle_stage: active
+name: word_happiness_random_forest

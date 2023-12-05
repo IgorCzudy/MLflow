@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/2c4667800d554cb2a007ea0ae108fcb3/artifacts
+end_time: 1701791031151
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c4667800d554cb2a007ea0ae108fcb3
+run_name: capricious-perch-710
+run_uuid: 2c4667800d554cb2a007ea0ae108fcb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791028145
+status: 3
+tags: []
+user_id: igor

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/99fcb9a0649f483fba3c6ca9bbe49951/artifacts
+end_time: 1701791059217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 99fcb9a0649f483fba3c6ca9bbe49951
+run_name: resilient-gnu-105
+run_uuid: 99fcb9a0649f483fba3c6ca9bbe49951
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791056169
+status: 3
+tags: []
+user_id: igor

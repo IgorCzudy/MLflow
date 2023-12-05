@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/c9d91b0e546a4e42b5c393f10b6f4b98/artifacts
+end_time: 1701791268549
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9d91b0e546a4e42b5c393f10b6f4b98
+run_name: shivering-elk-461
+run_uuid: c9d91b0e546a4e42b5c393f10b6f4b98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791268526
+status: 4
+tags: []
+user_id: igor

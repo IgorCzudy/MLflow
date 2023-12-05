@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/e4802c8f322344e9b7cc8936c27d4433/artifacts
+end_time: 1701791305926
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4802c8f322344e9b7cc8936c27d4433
+run_name: treasured-doe-924
+run_uuid: e4802c8f322344e9b7cc8936c27d4433
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791305901
+status: 4
+tags: []
+user_id: igor

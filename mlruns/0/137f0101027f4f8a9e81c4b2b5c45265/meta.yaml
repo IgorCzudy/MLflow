@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/137f0101027f4f8a9e81c4b2b5c45265/artifacts
+end_time: 1701790871389
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 137f0101027f4f8a9e81c4b2b5c45265
+run_name: charming-stork-42
+run_uuid: 137f0101027f4f8a9e81c4b2b5c45265
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701790867854
+status: 3
+tags: []
+user_id: igor

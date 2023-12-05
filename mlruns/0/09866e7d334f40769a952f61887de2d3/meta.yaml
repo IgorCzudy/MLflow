@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/09866e7d334f40769a952f61887de2d3/artifacts
+end_time: 1701791053994
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09866e7d334f40769a952f61887de2d3
+run_name: resilient-fawn-30
+run_uuid: 09866e7d334f40769a952f61887de2d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791050900
+status: 3
+tags: []
+user_id: igor

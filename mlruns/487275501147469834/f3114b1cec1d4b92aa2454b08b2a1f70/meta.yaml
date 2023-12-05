@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/487275501147469834/f3114b1cec1d4b92aa2454b08b2a1f70/artifacts
+end_time: 1701791917404
+entry_point_name: ''
+experiment_id: '487275501147469834'
+lifecycle_stage: active
+run_id: f3114b1cec1d4b92aa2454b08b2a1f70
+run_name: calm-dove-26
+run_uuid: f3114b1cec1d4b92aa2454b08b2a1f70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791913710
+status: 3
+tags: []
+user_id: igor

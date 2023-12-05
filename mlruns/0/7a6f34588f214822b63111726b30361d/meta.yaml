@@ -1,0 +1,15 @@
+artifact_uri: file:///home/igor/code/MLflow/mlruns/0/7a6f34588f214822b63111726b30361d/artifacts
+end_time: 1701791036782
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a6f34588f214822b63111726b30361d
+run_name: clean-ant-893
+run_uuid: 7a6f34588f214822b63111726b30361d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701791033305
+status: 3
+tags: []
+user_id: igor
